@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>Happy New year!</title>
+    <link rel="shortcut icon" href="https://i.um5.net/lnz/happy.ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdui@1.0.1/dist/css/mdui.min.css">
+    <style>
+        body{
+            background-image: url("https://i.um5.net/lnz/bg.jpg");
+            background-repeat:no-repeat;
+            background-size: cover;
+            
+        }
+        .myui-square{
+            width: 80%;
+            height:1500px;
+            border-radius: 20px;
+            background:rgba(225, 225, 225,0.5);
+
+        }
+        p{
+            text-indent: 2em;
+        }
+
+    </style>
+</head>
+<body class="mdui-theme-primary-indigo mdui-theme-accent-pink ">
+
+    
+
+    <br>
+    
+    <!-- 方框 -->
+    <div class="mdui-center myui-square">
+        <br>
+        <h1 class="mdui-text-center">新年快乐！2021你是我的谁泥？</h1>
+        <!-- 问题按钮 -->
+        <br>
+        <p class="mdui-text-center"><button class="mdui-btn mdui-ripple mdui-color-theme-accent" mdui-dialog="{target: '#bestfriend'}">闺蜜</button><b>还是</b><button class="mdui-btn mdui-ripple mdui-color-theme-accent" mdui-dialog="{target: '#friend'}">朋友</button><b>呢？</b></p>
+        <!-- end 问题按钮 -->
+    </div>
+    <!-- end 方框 -->
+
+
+    <!-- 回答 -->
+    <div class="mdui-dialog" id="bestfriend">
+        <div class="mdui-dialog-title">新年快乐鸭！</div>
+        <div class="mdui-dialog-content">嗨喽！宝贝！我会以闺闺的身份陪伴你，直到我不能再轮回。2021愿你繁花似锦未来可期！做个开开心心快快乐乐的沙雕女孩! <img class="mdui-center" src="https://i.um5.net/lnz/happy.jpg" alt="图片加载失败啦，快去找站长反馈吧！" style="width:50%;"></div>
+        <div class="mdui-dialog-actions">
+            <button class="mdui-btn mdui-ripple"><a href="end.html">好滴，新年快乐！</a></button>
+        </div>
+    </div>
+    <div class="mdui-dialog" id="friend">
+        <div class="mdui-dialog-title">新年快乐鸭！</div>
+        <div class="mdui-dialog-content">HAPPY NEW YEAR！二0二1愿你牛气升天，旗开得胜<img class="mdui-center" src="https://i.um5.net/lnz/happy.jpg" alt="图片加载失败啦，快去找站长反馈吧！" style="width:50%;"></div>
+        <div class="mdui-dialog-actions">
+            <button class="mdui-btn mdui-ripple"><a href="end.html">好滴，新年快乐！</a></button>
+        </div>
+    </div>
+    <!-- end 回答 -->
+
+<script src="https://cdn.jsdelivr.net/npm/mdui@1.0.1/dist/js/mdui.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/tidymoon/cdn/js/tj-github.js"></script>
+</body>
+
+</html>
