@@ -1,15 +1,35 @@
 <!DOCTYPE html>
 
 <head>
-    <link rel="stylesheet"href="//cdn.jsdelivr.net/gh/tidymoon/cdn/css/mdui.min.css">
+    <!-- <link rel="stylesheet"href="//cdn.jsdelivr.net/gh/tidymoon/cdn/css/mdui.min.css"> -->
     <script src="//cdn.jsdelivr.net/gh/tidymoon/cdn/js/tj-github.js"></script>
     <meta charset="UTF-8">
     <title>hi</title>
+    <style>
+        .bgimg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            min-width: 1000px;
+            z-index: -10;
+            background: url(https://i.um5.net/img/bg/sky.jpg) no-repeat;
+            background-size: cover;
+            background-position: center 0;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+    </style>
 
 </head>
 
-<body background="https://cdn.jsdelivr.net/gh/tidymoon/cdn/img/bg.jpg">
-    <h1 class="mdui-text-center">网站开发中！</h1>
+<body>
+    <div class="bgimg"></div>
+    <h1 class="text-center">网站开发中！</h1>
+    <p class="text-center">有木有发现我优化了背景并且改为腾讯云的 <a href="https://cloud.tencent.com/document/product/228">cdn</a> 呢？</p>
 </body>
 
 </html>
